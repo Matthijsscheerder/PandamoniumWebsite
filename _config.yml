@@ -4,6 +4,6 @@ description:
 show_downloads: True
 navigation:
   - title: Datastory
-    url: README
+    url: Datastory
   - title: Don't click here 
     url: example
