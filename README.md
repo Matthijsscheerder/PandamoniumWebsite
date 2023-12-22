@@ -13,7 +13,10 @@ Before we can really assess the strengths and weaknesses of the Bechdel we need 
 2. who talk to each other,
 3. about something other than a man
 
+This thus means that the Bechdel test can be considered as a discrete scoring from 0 (complete fail) to 3 (pass). 
 
+# The Bechdel test analysed
+Given the advent of spoken cinema in the early 1930s, one might assume that women's representation in film would have progressed alongside growing gender equality and women's involvement in society at large, potentially resulting in higher Bechdel test scores. However, we need to investigate whether this assumption holds true or if it is merely a perception. The following analysis aims to address this question directly.
 
 
 
