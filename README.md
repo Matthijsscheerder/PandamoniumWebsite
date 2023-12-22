@@ -32,7 +32,11 @@ We now want to also look at other metrics to measure women's representation in c
 As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics. The first metric, the female cast ratio, introduced by Yang et al. in 2020 seems to be a first candidate to look into.   
 ![Bechdel and female cast ratio](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelFemaleCastRatio.png?raw=true)
 
+Looking at the distribution below, the standard toddler would see a linear pattern with increasing female cast ratio. Therefore in first glance, we expect a correlation but that's to see for later.
+
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio_first_plot.html" width="800" height="600"></iframe>
+
+In this plot, we see the evolution by years the female cast ratio and the bechdel scores. It is apparent that the female cast ratio is much lower than 0.5 meaning there is less casted females than males. To confirm the latter, we apply an independent t test. The results show that the probability of observing a female cast ratio is significantly different (lower in our case) than 0.5. There is indeed more males casted than females :(
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio.html" width="800" height="600"></iframe>
 
