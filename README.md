@@ -19,6 +19,9 @@ This thus means that the Bechdel test can be considered as a discrete scoring fr
 ## The Bechdel test analysed
 Given the advent of spoken cinema in the early 1930s, one might assume that women's representation in film would have progressed alongside growing gender equality and women's involvement in society at large, potentially resulting in higher Bechdel test scores. However, we need to investigate whether this assumption holds true or if it is merely a perception. The following analysis aims to address this question directly. 
 
+![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/4ffb13bc-e65e-4a9c-abcc-e3bf64da226b)
+
+
 ## The Bechdel test analysed among countries
 As the world progresses, so does the lens through which we view gender representation. A historical analysis of cinematic trends shows a shift towards more inclusive and complex characterizations of women. Films that score high on newer metrics often resonate with contemporary societal values, achieving critical acclaim and commercial success. Intriguingly, these trends also vary geographically, with noticeable differences in countries based on their GII scores.
 
