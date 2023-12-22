@@ -16,11 +16,13 @@ Before we can really assess the strengths and weaknesses of the Bechdel we need 
 This thus means that the Bechdel test can be considered as a discrete scoring from 0 (complete fail) to 3 (pass). 
 
 # The Bechdel test analysed
-Given the advent of spoken cinema in the early 1930s, one might assume that women's representation in film would have progressed alongside growing gender equality and women's involvement in society at large, potentially resulting in higher Bechdel test scores. However, we need to investigate whether this assumption holds true or if it is merely a perception. The following analysis aims to address this question directly.
+Given the advent of spoken cinema in the early 1930s, one might assume that women's representation in film would have progressed alongside growing gender equality and women's involvement in society at large, potentially resulting in higher Bechdel test scores. However, we need to investigate whether this assumption holds true or if it is merely a perception. The following analysis aims to address this question directly. 
 
 # The Bechdel test analysed among countries
 As the world progresses, so does the lens through which we view gender representation. A historical analysis of cinematic trends shows a shift towards more inclusive and complex characterizations of women. Films that score high on newer metrics often resonate with contemporary societal values, achieving critical acclaim and commercial success. Intriguingly, these trends also vary geographically, with noticeable differences in countries based on their GII scores.
 
+# Introducing metrics
+As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics  
 
 
 
@@ -90,12 +92,9 @@ As the world progresses, so does the lens through which we view gender represent
 
 
 
-
-
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
+<-- 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
 4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
 **Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
 5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+6. Go back to "Settings" -> "Pages" to find your website link. -->
