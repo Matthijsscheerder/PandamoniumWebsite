@@ -40,7 +40,7 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 
 
-<iframe src="URL_TO_YOUR_PLOT.html" width="600" height="400"></iframe>
+<iframe src="https://raw.githubusercontent.com/Matthijsscheerder/PandamoniumWebsite/master/polarities.html" width="600" height="400"></iframe>
 
 
 ## Sources
