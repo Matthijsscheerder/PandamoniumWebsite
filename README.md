@@ -59,6 +59,7 @@ In the barplot below, the simple toddler would again see that with increasing ac
 
 ![Bechdel and actor mention](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true)
 
+Furthering our analysis, we now plot the distribution again the bechdel score by taking the mean bechdel score of each bin of the actor mention score. Now the correlation is now much more visible and understandable. We have lower bechdel scores for cases where female characters were less mentioned and higher bechdel scores when they are mentioned more.
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/actor_mention.html" width="800" height="600"></iframe>
 
 
