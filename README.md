@@ -22,9 +22,6 @@ Given the advent of spoken cinema in the early 1930s, one might assume that wome
 ![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/4ffb13bc-e65e-4a9c-abcc-e3bf64da226b)
 
 
-## The Bechdel test analysed among countries
-As the world progresses, so does the lens through which we view gender representation. A historical analysis of cinematic trends shows a shift towards more inclusive and complex characterizations of women. Films that score high on newer metrics often resonate with contemporary societal values, achieving critical acclaim and commercial success. Intriguingly, these trends also vary geographically, with noticeable differences in countries based on their GII scores.
-
 # Introducing new metrics
 We now want to also look at other metrics to measure women's representation in cinema. First we look into a metric introduced recently in 2020, before proposing some of our own metrics.
 
@@ -33,14 +30,6 @@ As we have seen up until now, the Bechdel test has some pretty significant limit
 ![Bechdel and female cast ratio](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelFemaleCastRatio.png?raw=true)
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio.html" width="800" height="600"></iframe>
-
-## Gender density
-Still, we are not really satisfied by the female cast ratio. If anything we think we can design some other metric that could better indicate women's representation in films. The female cast ratio only says something about the ratio of women to men, not their prominence. What sets the the Bechdel test apart from the female cast ratio is that it does require to examine the actual interaction of the actresses with actors. This does require watching the movie or reading the script however, rather time consuming efforts. We propose the metric of gender density, using natural language processing on the movie summaries we want to determine the ratio of female pronouns to male pronouns.
-The proposed metric uses thus the following relation:
-
-$$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\_characters}}$$
-
-<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/gender_densities.html" width="800" height="600"></iframe>
 
 ## Actor mention score
 
@@ -51,7 +40,16 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
+## Gender density
+Still, we are not really satisfied by the female cast ratio. If anything we think we can design some other metric that could better indicate women's representation in films. The female cast ratio only says something about the ratio of women to men, not their prominence. What sets the the Bechdel test apart from the female cast ratio is that it does require to examine the actual interaction of the actresses with actors. This does require watching the movie or reading the script however, rather time consuming efforts. We propose the metric of gender density, using natural language processing on the movie summaries we want to determine the ratio of female pronouns to male pronouns.
+The proposed metric uses thus the following relation:
 
+$$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\_characters}}$$
+
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/gender_densities.html" width="800" height="600"></iframe>
+
+## The Bechdel test analysed among countries
+As the world progresses, so does the lens through which we view gender representation. A historical analysis of cinematic trends shows a shift towards more inclusive and complex characterizations of women. Films that score high on newer metrics often resonate with contemporary societal values, achieving critical acclaim and commercial success. Intriguingly, these trends also vary geographically, with noticeable differences in countries based on their GII scores.
 
 # Predict Bechdel score by random forest
 ![random forest](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/RandomForest.webp)
