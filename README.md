@@ -95,6 +95,7 @@ One interesting thing about our calculated roberta metric is that it doesn't acc
 ### The light at the end of the tunnel is seen, lets put all the correlation coefficients together!
 Here we visualize all the spearman correlation coefficients together even between our own metrics to understand the underlying the correlations better, for the correlation with the bechdel score we jsut look at the topmost row.
 
+![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/3143792e-7915-4cdb-bff2-79d53316f1b1)
 
 # Predict Bechdel score by random forest
 ![random forest](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/RandomForest.webp)
@@ -122,8 +123,6 @@ We observe that for the cases where the movie passes 1 or 2 tests, it is hard to
 
 ## Binary Bechdel with Undersampling
 Although this does not provide us very crucial information, we can still try to get some information on the nature of the Bechdel test. We can see that our test accuracy raises to %71, from %50 with the random guessing case. Comparing the feature importance scores with the complete Bechdel classes, we can see that the first two features are still the same. The actor mention score seems to gain more importance this time. The rest does not provide us crucial information.
-
-![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/3143792e-7915-4cdb-bff2-79d53316f1b1)
 
 
 ## Final Recipe for Bechdel Classifier:
