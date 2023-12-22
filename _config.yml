@@ -3,7 +3,7 @@ title: Scripted Sisterhood
 description: Project ADA by Pandamonium
 show_downloads: True
 navigation:
-  - title: Home
-    url: /
+  - title: See if it works
+    url: README.md
   - title: Example
     url: example
