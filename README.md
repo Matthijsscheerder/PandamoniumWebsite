@@ -62,8 +62,6 @@ To better understand the correlation we employ the spearman correlation to that 
 
 From these analysis we assume that this might be a good metric to predict the bechdel score.
 
-<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
-
 ## Gender density
 Still, we are not really satisfied by the female cast ratio. If anything we think we can design some other metric that could better indicate women's representation in films. The female cast ratio only says something about the ratio of women to men, not their prominence. What sets the the Bechdel test apart from the female cast ratio is that it does require to examine the actual interaction of the actresses with actors. This does require watching the movie or reading the script however, rather time consuming efforts. We propose the metric of gender density, using natural language processing on the movie summaries we want to determine the ratio of female pronouns to male pronouns.
 The proposed metric uses thus the following relation:
@@ -87,6 +85,11 @@ In this section, we obtain the mood of the summary provided, by using the Robert
 #### Oh man! That movie was really sentimental! Or is it?
 
 When we plot the sentiment analysis results for all the movies in our initial cmu dataset, we clearly see that neutral movies make the substantial majority with the negative movies coming in for the second place and the positive movies for the last. Although the difference is visually very visible, we nevertheless perform a t test. As a result we see that the probability of having neutral scores are statistically different than observing a positive or a negative score at a significance level of p=0.01 
+
+#### Roberta vs Blob Polarities
+
+One interesting thing about our calculated roberta metric is that it doesn't account for the neutral so it tends to jiggle around a lot whereas the blob model is a better representation of polarity since the resulting normal distribution is around 0 which makes sense since the Roberta model predicted that the majority of the movies had higher neutral scores. As seen in the interactive plot below, the roberta polarity tends to be centered around a negative value. Given our hypothesis that the blob model might more robust.
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
 
 
