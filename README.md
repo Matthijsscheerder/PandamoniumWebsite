@@ -16,7 +16,7 @@ Before we can really assess the strengths and weaknesses of the Bechdel we need 
 
 This thus means that the Bechdel test can be considered as a discrete scoring from 0 (complete fail) to 3 (pass). 
 
-# Introducing new metrics, why is it costly? Can we do better?
+# Introducing new metrics, why is bechdel test costly? Can we do better?
 In our bechdel dataset that we scraped from the web, we have a categorical score between 0 and 3 for each movie indicating how many tests a single movie passes. We then take the intersection between the CMU movie data and the created bechdel dataset.
 
 Although it seems like a good feature for gender representation, getting the data might be very costly!! This is primarily because it involves processing the entire movie script either by humans or complex natural language processing models. In this project, we will introduce new metrics that can be gotten just from the movie summaries, therefore reducing the dramatically the complexity of the latter task. We will then try to see the possible correlations between these metrics and the bechdel score determining the importance of each metric. By doing this, we aim to come up with a new simpler to get formula that may be a better gender representer by combining our new metrics. We will finally observe these new metrics' evolution with each country
@@ -93,7 +93,7 @@ One interesting thing about our calculated roberta metric is that it doesn't acc
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
 ### The light at the end of the tunnel is seen, lets put all the correlation coefficients together!
-Here we visualize all the spearman correlation coefficients together even between our own metrics to understand the underlying the correlations better, for the correlation with the bechdel score we jsut look at the topmost row.
+Here we visualize all the spearman correlation coefficients together even between our own metrics to understand the underlying the correlations better, for the correlation with the bechdel score we just look at the topmost row.
 
 ![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/3143792e-7915-4cdb-bff2-79d53316f1b1)
 
