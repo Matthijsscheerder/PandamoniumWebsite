@@ -48,7 +48,7 @@ Now its time for the other metric to shine. We do the same OLS linear regression
 
 To better understand the correlation we employ the spearman correlation again and we get a significant correlation with a coefficient of 0.46 which is again much higher.
 ##### It turns out that the simple standard toddler is right!!!
-
+![Toddler is right](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/Toddler.webp)
 ## Actor mention score
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/actor_mention.html" width="800" height="600"></iframe>
