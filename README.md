@@ -85,13 +85,14 @@ In this section, we obtain the mood of the summary provided, by using the Robert
 #### Oh man! That movie was really sentimental! Or is it?
 
 When we plot the sentiment analysis results for all the movies in our initial cmu dataset, we clearly see that neutral movies make the substantial majority with the negative movies coming in for the second place and the positive movies for the last. Although the difference is visually very visible, we nevertheless perform a t test. As a result we see that the probability of having neutral scores are statistically different than observing a positive or a negative score at a significance level of p=0.01 
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/sentiments.html" width="800" height="600"></iframe>
 
 #### Roberta vs Blob Polarities
 
 One interesting thing about our calculated roberta metric is that it doesn't account for the neutral so it tends to jiggle around a lot. Therefore we used the blob model which is a better representation of polarity since the resulting normal distribution is around 0 which makes sense since the Roberta model predicted that the majority of the movies had higher neutral scores. As seen in the interactive plot below, the roberta polarity tends to be centered around a negative value. Given our hypothesis that the blob model might more robust.
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
-<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/sentiments.html" width="800" height="600"></iframe>
+
 
 # Predict Bechdel score by random forest
 ![random forest](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/RandomForest.webp)
