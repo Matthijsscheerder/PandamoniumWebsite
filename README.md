@@ -28,9 +28,7 @@ We now want to also look at other metrics to measure women's representation in c
 As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics. The first metric, the female cast ratio, introduced by Yang et al. in 2020 seems to be a first candidate to look into.   
 
 ## Gender density
-Still, we are not really satisfied by the female cast ratio. If anything we think we can design some other metric that could better indicate women's representation in films. The female cast ratio only says something about the ratio of women to men, not their prominence. The bechdel test     
-
-
+Still, we are not really satisfied by the female cast ratio. If anything we think we can design some other metric that could better indicate women's representation in films. The female cast ratio only says something about the ratio of women to men, not their prominence. What sets the the Bechdel test apart from the female cast ratio is that it does require to examine the actual interaction of the actresses with actors. This does require watching the movie or reading the script however, rather time consuming efforts. We propose the metric of gender density, using natural language processing on the movie summaries we want to determine the ratio of female pronouns to male pronouns.
 
 ## Actor mention score
 
