@@ -46,6 +46,7 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 
 <iframe src="https://github.com/Matthijsscheerder/PandamoniumWebsite/master/polarities.html" width="600" height="400"></iframe>
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
 
 ## Sources
