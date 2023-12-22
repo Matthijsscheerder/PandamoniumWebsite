@@ -1,7 +1,7 @@
 # Beyond the Bechdel Test: A New Era of Measuring Women's Representation in Cinema
 *By Pandamonium: Tiago Freitas, Deniz Kasap, Riza Arseven, Eren Saydar and Matthijs Scheerder*
 ![us crancking out work for the project](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/PandamoniumPanda.webp)
-https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true
+
 
 # Introduction
 In a world where cinema is not just entertainment but a mirror to society, understanding the representation of women on screen is paramount. For the last decades, the Bechdel test has been a cornerstone in assessing this representation, yet its simplicity often overshadows its limitations. This narrative ventures beyond the Bechdel test, unveiling a new landscape of metrics that offer a richer, more nuanced view of women in cinema.
@@ -38,7 +38,7 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 ## Actor mention score
 
-![Bechdel and actor mention]https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true
+![Bechdel and actor mention](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true)
 
 
 <iframe src="https://raw.githubusercontent.com/Matthijsscheerder/PandamoniumWebsite/master/polarities.html" width="600" height="400"></iframe>
