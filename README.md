@@ -22,7 +22,10 @@ Given the advent of spoken cinema in the early 1930s, one might assume that wome
 ![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/4ffb13bc-e65e-4a9c-abcc-e3bf64da226b)
 
 
-# Introducing new metrics
+# Introducing new metrics, why is it costly? Can we do better?
+In our bechdel dataset that we scraped from the web, we have a categorical score between 0 and 3 for each movie indicating how many tests a single movie passes. We then take the intersection between the CMU movie data and the created bechdel dataset.
+
+Although it seems like a good feature for gender representation, getting the data might be very costly!! This is primarily because it involves processing the entire movie script either by humans or complex natural language processing models. In this project, we will introduce new metrics that can be gotten just from the movie summaries, therefore reducing the dramatically the complexity of the latter task. We will then try to see the possible correlations between these metrics and the bechdel score determining the importance of each metric. By doing this, we aim to come up with a new simpler to get formula that may be a better gender representer by combining our new metrics. We will finally observe these new metrics' evolution with each country
 We now want to also look at other metrics to measure women's representation in cinema. First we look into a metric introduced recently in 2020, before proposing some of our own metrics.
 
 ## Female cast ratio
