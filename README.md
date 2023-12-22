@@ -29,16 +29,25 @@ Although it seems like a good feature for gender representation, getting the dat
 We now want to also look at other metrics to measure women's representation in cinema. First we look into a metric introduced recently in 2020, before proposing some of our own metrics.
 
 ## Female cast ratio
-As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics. The first metric, the female cast ratio, introduced by Yang et al. in 2020 seems to be a first candidate to look into.   
-![Bechdel and female cast ratio](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelFemaleCastRatio.png?raw=true)
+As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics. The first metric, the female cast ratio, introduced by Yang et al. in 2020 seems to be a first candidate to look into.
 
 Looking at the distribution below, the standard toddler would see a linear pattern with increasing female cast ratio. Therefore in first glance, we expect a correlation but that's to see for later.
 
-<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio_first_plot.html" width="800" height="600"></iframe>
+![Bechdel and female cast ratio](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelFemaleCastRatio.png?raw=true)
 
+### Are females casted less???!!
 In this plot, we see the evolution by years the female cast ratio and the bechdel scores. It is apparent that the female cast ratio is much lower than 0.5 meaning there is less casted females than males. To confirm the latter, we apply an independent t test. The results show that the probability of observing a female cast ratio is significantly different (lower in our case) than 0.5. There is indeed more males casted than females :(
 
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio_first_plot.html" width="800" height="600"></iframe>
+
+Here the data looks normally distributed. However we observe an apparent correlation between the female cast ratio and the bechdel score mean for each bin. This makes sense as well, when more females are casted, they tend to conversate more to each other hence having a higher bechdel score!
+
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio.html" width="800" height="600"></iframe>
+
+Now its time for the other metric to shine. We do the same OLS linear regression as done with the other metric between the bechdel score taking it as a dependent variable and taking the female cast ratio as an independent variable. We observe an adjusted R squared value of 0.204 which is not and the probability of observing the regression coefficient is significant for a p value of p=0.01.
+
+To better understand the correlation we employ the spearman correlation again and we get a significant correlation with a coefficient of 0.46 which is again much higher.
+##### It turns out that the simple standard toddler is right!!!
 
 ## Actor mention score
 
