@@ -47,6 +47,7 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
+# Predict Bechdel by random forest
 
 ## Sources
 Luoying Yang, Zhou Xu, and Jiebo Luo. 2020. Measuring Female Representation and Impact in Films over Time. ACM/IMS Trans. Data Sci. 1, 4, Article 30 (November 2020), 14 pages. https://doi.org/10.1145/3411213
