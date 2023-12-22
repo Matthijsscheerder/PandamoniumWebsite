@@ -49,8 +49,6 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 
 
 
-![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/406f4b76-f708-488f-b5c5-e79c4d1366bb)
-
 # Predict Bechdel score by random forest
 ![random forest](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/RandomForest.webp)
 
