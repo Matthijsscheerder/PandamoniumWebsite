@@ -21,6 +21,8 @@ Given the advent of spoken cinema in the early 1930s, one might assume that wome
 
 ![image](https://github.com/Matthijsscheerder/PandamoniumWebsite/assets/71981923/4ffb13bc-e65e-4a9c-abcc-e3bf64da226b)
 
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
+
 
 ## The Bechdel test analysed among countries
 As the world progresses, so does the lens through which we view gender representation. A historical analysis of cinematic trends shows a shift towards more inclusive and complex characterizations of women. Films that score high on newer metrics often resonate with contemporary societal values, achieving critical acclaim and commercial success. Intriguingly, these trends also vary geographically, with noticeable differences in countries based on their GII scores.
