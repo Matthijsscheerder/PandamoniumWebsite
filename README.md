@@ -29,6 +29,8 @@ We now want to also look at other metrics to measure women's representation in c
 As we have seen up until now, the Bechdel test has some pretty significant limitations. Therefore we wanted to look at other metrics. The first metric, the female cast ratio, introduced by Yang et al. in 2020 seems to be a first candidate to look into.   
 ![Bechdel and female cast ratio](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelFemaleCastRatio.png?raw=true)
 
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio_first_plot.html" width="800" height="600"></iframe>
+
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio.html" width="800" height="600"></iframe>
 
 ## Actor mention score
