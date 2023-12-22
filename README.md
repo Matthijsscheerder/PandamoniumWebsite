@@ -50,10 +50,16 @@ To better understand the correlation we employ the spearman correlation and we g
 ##### It turns out that the simple standard toddler is right!!!
 ![Toddler is right](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/Toddler.webp)
 ## Actor mention score
+We calculate the following simple ratio:
+$$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\_characters}}$$
 
-<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/actor_mention.html" width="800" height="600"></iframe>
+For each unique movie, we access its relative character dataframe and the summary provided. By comparing every name in the summary, we get their genders and calculate the abovementioned score.
+
+In the barplot below, the simple toddler would again see that with increasing actor mention scores, the bechdel score also improves. We will try to see if that correlation is significant in the later steps as well. The toddler is a toddler afterall.
 
 ![Bechdel and actor mention](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true)
+
+<iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/actor_mention.html" width="800" height="600"></iframe>
 
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
