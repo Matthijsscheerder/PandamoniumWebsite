@@ -1,6 +1,6 @@
 # Beyond the Bechdel Test: A New Era of Measuring Women's Representation in Cinema
 *By Pandamonium: Tiago Freitas, Deniz Kasap, Riza Arseven, Eren Saydar and Matthijs Scheerder*
-![us crancking out work](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/PandamoniumPanda.webp)
+![us crancking out work for the project](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/PandamoniumPanda.webp)
 
 
 # Introduction
