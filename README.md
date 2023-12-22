@@ -45,7 +45,6 @@ $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\
 ![Bechdel and actor mention](https://github.com/Matthijsscheerder/PandamoniumWebsite/blob/master/BechdelActorMention.png?raw=true)
 
 
-<iframe src="https://github.com/Matthijsscheerder/PandamoniumWebsite/master/polarities.html" width="600" height="400"></iframe>
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
 
