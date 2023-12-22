@@ -15,9 +15,6 @@ Before we can really assess the strengths and weaknesses of the Bechdel we need 
 
 
 
-This test, pioneering for its time, sparked a global conversation about female representation in movies, challenging the industry's status quo
-
-
 
 
 
