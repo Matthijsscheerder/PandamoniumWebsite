@@ -92,7 +92,44 @@ When we plot the sentiment analysis results for all the movies in our initial cm
 
 # Predict Bechdel score by random forest
 ![random forest](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/RandomForest.webp)
+## Random Forest for Bechdel Score Classification
 
+To further integrate our new features and try to develop an estimator framework to estimate Bechdel score. The reason we opt for random forest is that it can be utilized as a threshold based classifier since our new features consist of thresholdable features, such as setting a threshold for female cast ratio. Also, another important aspect is that when constructing the forest with trees, the features as ranked based on their importance, from a bottom-to-top fashion. This can be further used as a feature selection method.
+
+$$Test Accuracy: 0.605$$
+
+Although this test accuracy looks promising, it may be a little misleading, since the label distribution is not equal and thus majority class is more dominany. To get a better idea of our classifier, we can plot confusion matrix and get macro/micro average of our prediction metrics:
+
+## Unequal Classes! What about undersampling?
+
+Before inspecting and analysing our preliminary results, first, let's try to carry out the same experiment with a different approach. Since the class distribution is not equal and bechdel score = 3 is the majority class, we can try to undersample the minority class, which is bechdel_score = 0. From each label, we can try to sample 300 samples each, in total 1200 samples, before the training and test split. This way, with the test accuracy and confusion matrix, we can interpret our results more easily and safely.
+
+
+
+Considering the model with no information gained, we would consider %25 accuracy, whereas with the random forest, we get %46 test accuracy. This can be considering promising as well, compared to the %25 accuracy. Yet, this would not considered sufficient for a robust classifier. With the undersampled version, we eliminate the differentiation for precision, recall and F1 score. However, this not being a binary classification task, it would require more in-depth analysis for the individual classes. Looking for the confusion matrix, we release a significant difference between the accuracies of label 0 & 3 versus 1 & 2. Considering the definition of the Bechdel test, it is easy to classify score-0, cast not containing 2 female actresses. This can be deducted from female cast ratio.
+
+We can visualize the how much each feature contributes to the estimator within the same function. We can rank and visualize feature importances in a bar plot. The random forest ranks the impurity of each features. As we can see from the figure above, from the trained random forest, we can see that the most importance is put on female cast ratio, and the second is gender pronoun density. The third place goes to polarity blob. The remaining seems to have more or less the same importance.
+
+## Opting for Binary Bechdel Test
+
+We observe that for the cases where the movie passes 1 or 2 tests, it is hard to classify. For this reason, we may opt to look from a more rigid perspective and binarize the output labels as "Passed", or "Failed". The same analysis is carried out with the binary bechdel version.
+
+## Binary Bechdel with Undersampling
+Although this does not provide us very crucial information, we can still try to get some information on the nature of the Bechdel test. We can see that our test accuracy raises to %71, from %50 with the random guessing case. Comparing the feature importance scores with the complete Bechdel classes, we can see that the first two features are still the same. The actor mention score seems to gain more importance this time. The rest does not provide us crucial information.
+
+## Final Recipe for Bechdel Classifier:
+
+For the final recipe, we can eliminate the intermediate features such as positive sentiment probability, negative sentiment probability, etc. 
+
+The final features kept are the folowings:
+* Actor Mention Score
+* Female Cast Ratio
+* Gender Pronoun Density
+* Polarity Blob
+
+Using these features, we can train our classifier for the one last time:
+
+We can see that we still get the same test accuracy but less features for the desired task.
 
 
 
