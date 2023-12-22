@@ -1,5 +1,91 @@
-# Scripted Sisterhood
-### By Pandamonium: Riza Arseven, Tiago Freitas, Eren Seydar, Deniz Kasap and Matthijs Scheerder
+# Beyond the Bechdel Test: A New Era of Measuring Women's Representation in Cinema
+*By Pandamonium: Tiago Freitas, Deniz Kasap, Riza Arseven, Eren Saydar and Matthijs Scheerder*
+
+
+
+
+
+
+# Introduction
+In a world where cinema is not just entertainment but a mirror to society, understanding the representation of women on screen is paramount. For the last decades, the Bechdel test has been a cornerstone in assessing this representation, yet its simplicity often overshadows its limitations. This narrative ventures beyond the Bechdel test, unveiling a new landscape of metrics that offer a richer, more nuanced view of women in cinema.
+
+# The Bechdel test explained
+Before we can really assess the strengths and weaknesses of the Bechdel we need to define for the reader what it exactly entails. Conceived by Alison Bechdel in 1985, the Bechdel Test asks a straightforward question: does a movie feature at least two women who talk to each other about something besides a man? (refer Wikipedia) This test, pioneering for its time, sparked a global conversation about female representation in movies, challenging the industry's status quo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
 2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
 3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
