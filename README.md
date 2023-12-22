@@ -44,9 +44,9 @@ Here the data looks normally distributed. However we observe an apparent correla
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/female_cast_ratio.html" width="800" height="600"></iframe>
 
-Now its time for the other metric to shine. We do the same OLS linear regression as done with the other metric between the bechdel score taking it as a dependent variable and taking the female cast ratio as an independent variable. We observe an adjusted R squared value of 0.204 which is not and the probability of observing the regression coefficient is significant for a p value of p=0.01.
+Now its time for the other metric to shine. We do the Ordinary Least Squares (OLS) linear regression between the bechdel score taking it as a dependent variable and taking the female cast ratio as an independent variable. We observe an adjusted R squared value of 0.204 which is alright and the probability of observing the regression coefficient is significant for a p value of p=0.01.
 
-To better understand the correlation we employ the spearman correlation again and we get a significant correlation with a coefficient of 0.46 which is again much higher.
+To better understand the correlation we employ the spearman correlation and we get a significant correlation with a coefficient of 0.46 which is really not bad!!!.
 ##### It turns out that the simple standard toddler is right!!!
 ![Toddler is right](https://github.com/Matthijsscheerder/PandamoniumWebsite/raw/master/Toddler.webp)
 ## Actor mention score
