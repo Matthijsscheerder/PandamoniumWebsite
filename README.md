@@ -62,6 +62,11 @@ In the barplot below, the simple toddler would again see that with increasing ac
 Furthering our analysis, we now plot the distribution again the bechdel score by taking the mean bechdel score of each bin of the actor mention score. Now the correlation is now much more visible and understandable. We have lower bechdel scores for cases where female characters were less mentioned and higher bechdel scores when they are mentioned more.
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/actor_mention.html" width="800" height="600"></iframe>
 
+Now its time for this metric to shine (hopefully). We first do a linear regression using Ordinary Least squares (OLS) between the bechdel score taking it as a dependent variable and taking the actor mention score as an independent variable. We observe an adjusted R squared value of 0.112 which might not seem very high but the probability of observing the regression coefficient is significant for a p value of p=0.01
+
+To better understand the correlation we employ the spearman correlation to that also that is not limited by linear correlations. For the latter we get a correlation coefficient of 0.35 which doesn't look bad
+
+From these analysis we assume that this might be a good metric to predict the bechdel score.
 
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
@@ -71,6 +76,10 @@ The proposed metric uses thus the following relation:
 
 $$\frac{number_{female\_characters}}{number_{female\_characters} + number_{male\_characters}}$$
 
+Since the standard simple toddler is always right, we won't bother even judging their hypothesis so we directly pass to the next part.
+
+## What!!!!? Films really mention more males???
+Here we first plot the distribution of the pronoun density versus the bechdel score. We can immediately see that a great number of films in the first bin corresponding to a she/her mention of a very low level to 0. When plotting this against the average bechdel test scores for each mean, we observe a visual correlation, meaning for low mentions of females the bechdel score is lower and for mention of females the bechdel score is higher. This result is consistent to what we saw in the beginning of this notebook with the evolution of the female cast ratio over the years. Finally we plot the individual occurences of each pronoun in each plot summary. We then conduct an independent t test telling us that the probability of observing male pronouns versus females are considerably different at a significance level of p=0.01
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/gender_densities.html" width="800" height="600"></iframe>
 
 ## The Bechdel test analysed among countries
