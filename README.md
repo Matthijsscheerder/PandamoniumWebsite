@@ -92,6 +92,8 @@ When we plot the sentiment analysis results for all the movies in our initial cm
 One interesting thing about our calculated roberta metric is that it doesn't account for the neutral so it tends to jiggle around a lot. Therefore we used the blob model which is a better representation of polarity since the resulting normal distribution is around 0 which makes sense since the Roberta model predicted that the majority of the movies had higher neutral scores. As seen in the interactive plot below, the roberta polarity tends to be centered around a negative value. Given our hypothesis that the blob model might more robust.
 <iframe src="https://Matthijsscheerder.github.io/PandamoniumWebsite/polarities.html" width="600" height="600"></iframe>
 
+### The light at the end of the tunnel is seen, lets put all the correlation coefficients together!
+Here we visualize all the spearman correlation coefficients together even between our own metrics to understand the underlying the correlations better, for the correlation with the bechdel score we jsut look at the topmost row.
 
 
 # Predict Bechdel score by random forest
