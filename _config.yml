@@ -4,6 +4,6 @@ description:
 show_downloads: True
 navigation:
   - title: Main
-    url: README.md
+    url: README
   - title: Don't click here 
     url: example
